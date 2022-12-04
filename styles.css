@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(158, 211, 197);
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 1rem;
+    }
+    
+    
+    h1{   
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+    }
+    
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    #check-btn{
+        background-color: darkgrey;
+    }
+    
+    input {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        width: 25%;
+        margin: 0.5rem;
+    }
+    .change-table{ 
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+    
+    
+    td, th {
+        border: 2px solid ;
+        padding: 1rem;}
+    
+    th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+        }
+    
+    td {
+    display: table-cell;
+    vertical-align: inherit;
+    }
+
+    
